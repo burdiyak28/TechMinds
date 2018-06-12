@@ -1,0 +1,54 @@
+body {
+  background-color: #121212;
+  color: #fff; }
+  body .container-fluid .row .tel {
+    background-color: #fff;
+    color: #121212;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2% 3%; }
+    body .container-fluid .row .tel .input-group {
+      padding: 0 0 20px 0;
+      width: 100%; }
+      body .container-fluid .row .tel .input-group .telNum {
+        text-align: center; }
+  body .container-fluid .row .headerMain {
+    margin: 35px;
+    text-align: center;
+    font-size: 52px; }
+  body .footer {
+    padding-top: 50px;
+    line-height: 90%; }
+    body .footer #disclaimer {
+      text-align: justify; }
+
+.w-100-p {
+  width: 100%; }
+
+.m-b-15 {
+  margin-bottom: 15px; }
+
+@media screen and (min-width: 700px) {
+  .headerMain {
+    font-size: 60px !important; } }
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .headerMain {
+    font-size: 52px !important; } }
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  .headerMain {
+    font-size: 42px !important; } }
+@media screen and (max-width: 499px) {
+  .headerMain {
+    font-size: 20px !important; } }
+.navbar-default {
+  background-color: #121212;
+  border-color: #121212; }
+
+.navbar-nav {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+/*# sourceMappingURL=main.css.map */
